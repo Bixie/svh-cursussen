@@ -45,7 +45,7 @@ $align = ($this->checkPosition('media')) ? $params->get('template.teaseritem_med
 <?php if ($this->checkPosition('content') || $this->checkPosition('links')) : ?>
 <div id="datalist<?php echo $this->item->id; ?>" class="uk-grid">
 
-	<div class="uk-width-medium-1-2">
+	<div class="uk-width-1-1">
 		<!-- This is the container enabling the JavaScript -->
 		<div class="uk-button-dropdown" data-uk-dropdown="{justify:'#datalist<?php echo $this->item->id; ?>'}">
 
@@ -59,7 +59,7 @@ $align = ($this->checkPosition('media')) ? $params->get('template.teaseritem_med
 			</div>
 		</div>
 	</div>
-	<div class="uk-width-medium-1-2">
+	<div class="uk-width-1-1">
 		
 		<?php if ($this->checkPosition('links')) : ?>
 		<div class="">
