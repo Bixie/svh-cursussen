@@ -19,11 +19,11 @@ $align = ($this->checkPosition('media')) ? $params->get('template.teaseritem_med
 
 
 <div class="uk-grid">
-	<div class="uk-width-medium-3-5">
+	<div class="uk-width-medium-1-2">
 	<?php echo $this->renderPosition('content', array('style' => 'uikit_blank')); ?>
 	</div>
 
-	<div class="uk-width-medium-2-5">
+	<div class="uk-width-medium-1-2">
 	<?php echo $this->renderPosition('links', array('style' => 'uikit_blank')); ?>
 	</div>
 </div>
