@@ -42,8 +42,7 @@ $align = ($this->checkPosition('media')) ? $view->params->get('template.item_med
 <?php endif; ?>
 
 <?php if ($this->checkPosition('content')) : ?>
-	<p>U kunt boeken op de volgende data:</p>
-	<ul class="uk-grid" data-uk-grid-margin>
+	<ul class="uk-grid uk-list-line" data-uk-grid-margin>
 		<?php echo $this->renderPosition('content'); ?>
 	</ul>
 <?php endif; ?>
