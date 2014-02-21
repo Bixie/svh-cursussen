@@ -12,7 +12,7 @@ defined('_JEXEC') or die;
 // /*bixie  playground
 require_once(JPATH_ADMINISTRATOR.'/components/com_zoo/config.php');
 $zoo = App::getInstance('zoo');
-$newPrice = "285.00";
+$newPrice = false; // "285.00";
 if ($newPrice) {
 	$db = JFactory::getDbo();
 	$db->setQuery($db->getQuery(true)
